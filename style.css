@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-section {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section select,
+.input-section button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.input-section button {
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background-color: #e68900;
+}
+
+.selectors {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.visualization {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.algo-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  min-width: 300px;
+}
+
+.array-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.bar {
+  background-color: #ffc107;
+  margin: 0 1px;
+  width: 10px;
+  transition: height 0.3s;
+}
+
+.bar.active {
+  background-color: red;
+}

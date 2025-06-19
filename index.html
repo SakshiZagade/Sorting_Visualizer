@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Algorithm Comparator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorting Algorithm Comparator</h1>
+    <div class="input-section">
+      <label for="user-array">Enter array elements (comma-separated):</label>
+      <input type="text" id="user-array" placeholder="e.g. 10,5,3,8,6">
+      <div class="selectors">
+        <div>
+          <label for="algorithm1">Algorithm 1:</label>
+          <select id="algorithm1">
+            <option value="bubble">Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="insertion">Insertion Sort</option>
+            <option value="merge">Merge Sort</option>
+            <option value="quick">Quick Sort</option>
+            <option value="heap">Heap Sort</option>
+          </select>
+        </div>
+        <div>
+          <label for="algorithm2">Algorithm 2:</label>
+          <select id="algorithm2">
+            <option value="bubble">Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="insertion">Insertion Sort</option>
+            <option value="merge">Merge Sort</option>
+            <option value="quick">Quick Sort</option>
+            <option value="heap">Heap Sort</option>
+          </select>
+        </div>
+      </div>
+      <button onclick="startComparison()">Compare Algorithms</button>
+    </div>
+
+    <div class="visualization">
+      <div class="algo-box">
+        <h2 id="algo1-title"></h2>
+        <div class="array-container" id="array1"></div>
+        <p id="algo1-time"></p>
+        <p id="algo1-complexity"></p>
+      </div>
+      <div class="algo-box">
+        <h2 id="algo2-title"></h2>
+        <div class="array-container" id="array2"></div>
+        <p id="algo2-time"></p>
+        <p id="algo2-complexity"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
