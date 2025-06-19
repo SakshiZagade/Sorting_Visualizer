@@ -11,7 +11,7 @@ An interactive and visual web application to compare and understand how differen
 - Responsive and attractive UI
 
 ## 🚀 Live Demo
-
+ https://sakshizagade.github.io/Sorting_Visualizer/
 
 
 
